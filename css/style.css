@@ -252,3 +252,83 @@ h6,
 .blog-item:hover img {
     transform: scale(1.1);
 }
+
+/* new  */
+
+/* Dropdown on hover */
+.navbar-nav .dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; /* Optional: removes jumpy animation */
+}
+
+/* call hover  */
+.call-btn {
+    background-color: #6c757d;
+    color: #fff;
+    transition: all 0.3s ease;
+    border: none;
+}
+
+.call-btn:hover {
+    background-color: #495057; /* Darker shade on hover */
+    color: #fff;
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* whatsapp  */
+
+.whatsapp-btn {
+    background-color: #25D366;
+    color: #fff;
+    transition: all 0.3s ease;
+    border: none;
+}
+
+.whatsapp-btn:hover {
+    background-color: #1ebd5b; /* Slightly darker green on hover */
+    color: #fff;
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+
+.quick-link {
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+    border-radius: 10px;
+}
+
+.quick-link:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.whatsapp-btn {
+    background-color: #25D366;
+    color: white;
+    border: none;
+}
+
+.whatsapp-btn:hover {
+    background-color: #1ebd5b;
+    color: white;
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+
+.industry-card {
+    transition: all 0.3s ease;
+    text-decoration: none;
+    color: inherit;
+    background-color: #ffffff;
+}
+
+.industry-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    background-color: #6595cb; /* Light blue on hover */
+    color: #000;
+}
+
