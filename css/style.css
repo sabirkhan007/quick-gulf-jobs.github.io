@@ -358,3 +358,26 @@ h6,
         background-color: #ffffff;
     }
  
+    
+     /* Make sure there’s no unwanted spacing */
+    .carousel,
+    .carousel-inner,
+    .carousel-item {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    /* Ensure video fills the screen correctly on all devices */
+    .carousel-item {
+        height: 100vh;
+    }
+
+    @media (max-width: 768px) {
+        .carousel-item {
+            height: 50vh; /* Ensures no vertical scroll or extra padding */
+        }
+    }
+
+    video {
+        object-fit: cover;
+    }
